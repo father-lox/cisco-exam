@@ -1,0 +1,19 @@
+{
+  "name": "cisco-exam",
+  "version": "1.0.0",
+  "description": "This's CISCO CCNA trainer",
+  "main": "./js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cisco",
+    "ccna",
+    "trainer",
+    "js",
+    "test",
+    "app"
+  ],
+  "author": "",
+  "license": "ISC"
+}

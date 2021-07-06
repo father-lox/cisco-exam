@@ -1,0 +1,46 @@
+body {
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 600px;
+}
+
+.score {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    h1 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .answer {
+        label, input {
+            cursor: pointer;
+        }
+
+        label:hover {
+            text-decoration: underline;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}
